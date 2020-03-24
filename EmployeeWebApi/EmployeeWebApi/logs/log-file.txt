@@ -1,0 +1,322 @@
+INFO-2020-02-17 22:38:48:09-[1]-WebApiApplication - ******Application started******
+INFO-2020-02-17 22:39:49:65-[8]-WebApiApplication - ******Application End******
+INFO-2020-02-17 22:40:02:18-[17]-WebApiApplication - ******Application started******
+INFO-2020-02-17 22:40:04:82-[6]-ValuesController - Get called
+INFO-2020-02-17 22:41:28:00-[6]-WebApiApplication - ******Application End******
+INFO-2020-02-17 23:14:49:43-[1]-WebApiApplication - ******Application started******
+INFO-2020-02-17 23:16:08:56-[49]-WebApiApplication - ******Application End******
+INFO-2020-02-17 23:16:22:15-[40]-WebApiApplication - ******Application started******
+INFO-2020-02-17 23:16:52:20-[54]-ValuesController - Get called
+INFO-2020-02-17 23:17:40:50-[42]-WebApiApplication - ******Application End******
+INFO-2020-02-17 23:20:04:64-[51]-WebApiApplication - ******Application started******
+INFO-2020-02-17 23:20:14:25-[50]-ValuesController - Get called
+INFO-2020-02-17 23:20:39:91-[50]-ValuesController - Get called
+INFO-2020-03-23 12:13:53:32-[14]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:14:37:80-[6]-WebApiApplication - ******Application End******
+INFO-2020-03-23 12:15:21:21-[13]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:16:12:72-[17]-WebApiApplication - ******Application End******
+INFO-2020-03-23 12:16:49:30-[1]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:18:05:23-[10]-WebApiApplication - ******Application End******
+INFO-2020-03-23 12:19:24:17-[12]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:19:36:67-[5]-WebApiApplication - ******Application End******
+INFO-2020-03-23 12:23:11:20-[18]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:24:48:72-[5]-ValuesController - Get called
+INFO-2020-03-23 12:27:20:44-[22]-ValuesController - Get called
+INFO-2020-03-23 12:31:51:66-[19]-WebApiApplication - ******Application End******
+INFO-2020-03-23 12:32:29:78-[18]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:33:02:54-[1]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:33:23:84-[5]-ValuesController - Get called
+INFO-2020-03-23 12:34:25:85-[10]-WebApiApplication - ******Application End******
+INFO-2020-03-23 12:34:59:19-[16]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:35:10:96-[8]-ValuesController - Get called
+INFO-2020-03-23 12:41:39:20-[12]-WebApiApplication - ******Application End******
+INFO-2020-03-23 12:41:57:69-[23]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:49:23:46-[17]-WebApiApplication - ******Application End******
+INFO-2020-03-23 12:49:41:02-[24]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:50:01:57-[17]-ValuesController - Get called
+INFO-2020-03-23 12:52:46:18-[19]-WebApiApplication - ******Application End******
+INFO-2020-03-23 12:53:03:78-[16]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:53:47:95-[17]-WebApiApplication - ******Application End******
+INFO-2020-03-23 12:54:10:68-[16]-WebApiApplication - ******Application started******
+INFO-2020-03-23 12:54:20:77-[22]-ValuesController - Get called
+ERROR-2020-03-23 12:54:50:61-[17]-EmployeeController - Error in CreateEmployee 
+System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderEmployeeRequest.Read4_EmployeeRequest()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at EmployeeWebApi.Utils.XmlUtils.Deserialize[T](String xmlText) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Utils\XmlUtils.cs:line 36
+   at EmployeeWebApi.Controllers.EmployeeController.CreateEmployee() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 139
+ERROR-2020-03-23 13:00:07:21-[22]-EmployeeController - Error in CreateEmployee 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EmployeeWebApi.Controllers.EmployeeController.CreateEmployee() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 146
+ERROR-2020-03-23 13:03:36:09-[22]-EmployeeController - Error in CreateEmployee 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EmployeeWebApi.Controllers.EmployeeController.CreateEmployee() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 146
+INFO-2020-03-23 13:04:21:15-[22]-WebApiApplication - ******Application End******
+INFO-2020-03-23 13:04:41:18-[16]-WebApiApplication - ******Application started******
+ERROR-2020-03-23 13:05:51:54-[7]-EmployeeController - Error in CreateEmployee 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EmployeeWebApi.Controllers.EmployeeController.CreateEmployee() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 146
+INFO-2020-03-23 13:06:37:60-[6]-WebApiApplication - ******Application End******
+INFO-2020-03-23 13:06:51:84-[16]-WebApiApplication - ******Application started******
+INFO-2020-03-23 13:07:00:89-[6]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 13:07:01:11-[6]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 13:07:31:97-[6]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 13:10:32:84-[1]-WebApiApplication - ******Application started******
+INFO-2020-03-23 13:10:38:41-[6]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 13:10:38:46-[6]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 13:10:41:73-[6]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+ERROR-2020-03-23 13:11:03:59-[6]-EmployeeController - Error in CreateEmployee 
+System.InvalidCastException: Specified cast is not valid.
+   at EmployeeWebApi.DAL.Implementation.ApiLogDao.InsertIntoApiLog(ApiLogViewModel model) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\DAL\Implementation\ApiLogDao.cs:line 27
+   at EmployeeWebApi.BusinessImplementation.ApiLogManager.InsertIntoApiLog(ApiLogViewModel model) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\BusinessImplementation\ApiLogManager.cs:line 20
+   at EmployeeWebApi.Controllers.EmployeeController.CreateEmployee() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 148
+INFO-2020-03-23 13:11:56:85-[6]-WebApiApplication - ******Application End******
+INFO-2020-03-23 13:12:10:55-[17]-WebApiApplication - ******Application started******
+INFO-2020-03-23 13:12:14:53-[7]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 13:12:14:54-[7]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 13:12:31:26-[7]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 13:15:58:83-[7]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 13:35:47:40-[1]-WebApiApplication - ******Application started******
+INFO-2020-03-23 13:35:51:06-[6]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 13:35:51:10-[6]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 13:36:04:99-[6]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 13:36:29:98-[6]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 13:40:17:76-[6]-SqlDatabase - Uploading to table CoreEmployee with rows 0
+INFO-2020-03-23 13:43:31:02-[1]-WebApiApplication - ******Application started******
+INFO-2020-03-23 13:44:14:48-[5]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 13:44:14:53-[5]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 13:44:18:96-[5]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 13:44:28:43-[5]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 13:47:51:35-[5]-WebApiApplication - ******Application End******
+INFO-2020-03-23 13:48:15:50-[10]-WebApiApplication - ******Application started******
+INFO-2020-03-23 13:48:19:03-[6]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 13:48:19:04-[6]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 13:48:25:98-[6]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 13:48:25:99-[6]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 13:48:38:72-[7]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 13:49:37:30-[6]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+ERROR-2020-03-23 13:49:42:64-[6]-EmployeeController - Error in CreateEmployee 
+EmployeeWebApi.UDFException.ApiRejectionException: RequestId should be unique
+   at EmployeeWebApi.BusinessImplementation.ApiRequestIdCacheManager.ValidateRequestIdInsertIfNotAndThrowIfExists(Int32 apiId, String requestId) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\BusinessImplementation\ApiRequestIdCacheManager.cs:line 25
+   at EmployeeWebApi.Controllers.EmployeeController.CreateEmployee() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 152
+INFO-2020-03-23 13:49:42:65-[7]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 13:51:51:27-[16]-WebApiApplication - ******Application End******
+INFO-2020-03-23 13:52:15:83-[20]-WebApiApplication - ******Application started******
+INFO-2020-03-23 13:52:20:21-[7]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 13:52:20:23-[7]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 13:52:23:00-[7]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 13:52:23:02-[7]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 13:52:47:45-[15]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:06:03:84-[34]-WebApiApplication - ******Application End******
+INFO-2020-03-23 14:06:20:77-[40]-WebApiApplication - ******Application started******
+INFO-2020-03-23 14:06:38:63-[29]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 14:06:38:65-[29]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 14:06:41:10-[29]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:06:51:99-[29]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:14:11:38-[1]-WebApiApplication - ******Application started******
+INFO-2020-03-23 14:14:17:95-[6]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 14:14:17:99-[6]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 14:14:25:46-[6]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:14:25:50-[6]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:14:27:94-[6]-SqlDatabase - Uploading to table CoreEmployee with rows 1
+INFO-2020-03-23 14:14:46:00-[7]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:16:03:74-[6]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:16:15:17-[6]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+ERROR-2020-03-23 14:18:42:72-[6]-EmployeeController - Error in GetEmployee 
+System.InvalidCastException: Invalid cast from 'System.Int64' to 'System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at System.Int64.System.IConvertible.ToType(Type type, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType)
+   at EmployeeWebApi.Utils.DataTableUtils.GetValue[T](DataRow row, String columnName) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Utils\DataTableUtils.cs:line 19
+   at EmployeeWebApi.DAL.Implementation.EmployeeDao.GetEmployeeByPan(List`1 panList) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\DAL\Implementation\EmployeeDao.cs:line 33
+   at EmployeeWebApi.BusinessImplementation.EmployeeManager.GetEmployeesByPan(List`1 panList) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\BusinessImplementation\EmployeeManager.cs:line 22
+   at EmployeeWebApi.Controllers.EmployeeController.GetEmployee() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 72
+INFO-2020-03-23 14:18:42:76-[11]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:22:55:32-[15]-WebApiApplication - ******Application End******
+INFO-2020-03-23 14:23:13:17-[1]-WebApiApplication - ******Application started******
+INFO-2020-03-23 14:23:35:51-[7]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 14:23:35:53-[7]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 14:23:35:54-[7]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:23:40:67-[7]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+ERROR-2020-03-23 14:25:03:58-[7]-EmployeeController - Error in GetEmployee 
+System.InvalidCastException: Invalid cast from 'System.Int64' to 'System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at System.Int64.System.IConvertible.ToType(Type type, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType)
+   at EmployeeWebApi.Utils.DataTableUtils.GetValue[T](DataRow row, String columnName) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Utils\DataTableUtils.cs:line 25
+   at EmployeeWebApi.DAL.Implementation.EmployeeDao.GetEmployeeByPan(List`1 panList) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\DAL\Implementation\EmployeeDao.cs:line 33
+   at EmployeeWebApi.BusinessImplementation.EmployeeManager.GetEmployeesByPan(List`1 panList) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\BusinessImplementation\EmployeeManager.cs:line 22
+   at EmployeeWebApi.Controllers.EmployeeController.GetEmployee() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 72
+INFO-2020-03-23 14:25:03:65-[11]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:25:16:29-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:25:31:52-[17]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+ERROR-2020-03-23 14:27:01:63-[17]-EmployeeController - Error in GetEmployee 
+System.InvalidCastException: Invalid cast from 'System.Int64' to 'System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at System.Int64.System.IConvertible.ToType(Type type, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType)
+   at EmployeeWebApi.Utils.DataTableUtils.GetValue[T](DataRow row, String columnName) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Utils\DataTableUtils.cs:line 25
+   at EmployeeWebApi.DAL.Implementation.EmployeeDao.GetEmployeeByPan(List`1 panList) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\DAL\Implementation\EmployeeDao.cs:line 33
+   at EmployeeWebApi.BusinessImplementation.EmployeeManager.GetEmployeesByPan(List`1 panList) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\BusinessImplementation\EmployeeManager.cs:line 22
+   at EmployeeWebApi.Controllers.EmployeeController.GetEmployee() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 72
+INFO-2020-03-23 14:27:01:64-[11]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:27:14:49-[20]-WebApiApplication - ******Application End******
+INFO-2020-03-23 14:27:27:22-[10]-WebApiApplication - ******Application started******
+INFO-2020-03-23 14:27:31:26-[17]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 14:27:31:28-[17]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 14:27:31:29-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:27:34:87-[17]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:29:10:45-[8]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:29:49:13-[11]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:29:50:09-[11]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:29:50:11-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:30:16:56-[11]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:30:17:28-[11]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:30:17:29-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:31:58:61-[11]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:32:05:11-[11]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:33:21:02-[11]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:33:46:07-[11]-SqlDatabase - Executing command dbo.CoreEmployee_DeleteByPan
+INFO-2020-03-23 14:33:53:37-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:35:20:21-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:35:20:22-[17]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:35:26:44-[17]-SqlDatabase - Uploading to table CoreEmployee with rows 2
+INFO-2020-03-23 14:35:32:50-[32]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:36:40:58-[8]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:36:40:58-[8]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:36:40:60-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:36:41:51-[32]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:36:41:56-[32]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:36:41:56-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:36:42:23-[34]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:36:42:23-[34]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:36:42:24-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:36:42:90-[33]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:36:42:91-[33]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:36:42:92-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:36:43:88-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:36:43:88-[17]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:36:43:88-[8]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:36:44:61-[33]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:36:44:62-[33]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:36:44:62-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:36:54:35-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:36:54:36-[17]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:36:54:37-[8]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:36:55:29-[34]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:36:55:30-[34]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:36:55:32-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:37:12:16-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:37:12:16-[17]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:37:16:59-[17]-SqlDatabase - Uploading to table CoreEmployee with rows 1
+INFO-2020-03-23 14:37:16:62-[33]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:37:22:51-[29]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:37:22:51-[29]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:37:35:30-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:37:43:34-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:37:43:35-[17]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:37:43:42-[8]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:37:44:48-[32]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:37:44:49-[32]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:37:44:74-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:37:53:47-[34]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:37:53:48-[34]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:37:53:52-[34]-SqlDatabase - Uploading to table CoreEmployee with rows 1
+INFO-2020-03-23 14:37:53:56-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 14:38:04:94-[17]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 14:38:04:94-[17]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 14:38:05:03-[17]-SqlDatabase - Uploading to table CoreEmployee with rows 1
+INFO-2020-03-23 14:38:05:05-[8]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 15:14:13:92-[65]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 15:14:13:93-[65]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 15:14:13:94-[61]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 19:19:11:87-[1]-WebApiApplication - ******Application started******
+INFO-2020-03-23 19:19:35:26-[6]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+ERROR-2020-03-23 19:19:50:89-[6]-SqlDatabase - Error in ExecuteSelect - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.) ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at EmployeeWebApi.DAL.Implementation.SqlDatabase.ExecuteSelect(SqlCommand cmd) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\DAL\Implementation\SqlDatabase.cs:line 32
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:258,State:0,Class:20
+ERROR-2020-03-23 19:19:51:02-[6]-EmployeeController - Error in CreateCache - 
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.) ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at EmployeeWebApi.DAL.Implementation.SqlDatabase.ExecuteSelect(SqlCommand cmd) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\DAL\Implementation\SqlDatabase.cs:line 45
+   at EmployeeWebApi.DAL.Implementation.SysApiDao.GetAllSysApi() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\DAL\Implementation\SysApiDao.cs:line 24
+   at EmployeeWebApi.BusinessImplementation.ApiCacheManager.CacheApi() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\BusinessImplementation\ApiCacheManager.cs:line 26
+   at EmployeeWebApi.Controllers.EmployeeController.CreateCache() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 278
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:258,State:0,Class:20
+ERROR-2020-03-23 19:19:51:05-[6]-EmployeeController - Error in GetEmployee 
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.) ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at EmployeeWebApi.DAL.Implementation.SqlDatabase.ExecuteSelect(SqlCommand cmd) in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\DAL\Implementation\SqlDatabase.cs:line 45
+   at EmployeeWebApi.DAL.Implementation.SysApiDao.GetAllSysApi() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\DAL\Implementation\SysApiDao.cs:line 24
+   at EmployeeWebApi.BusinessImplementation.ApiCacheManager.CacheApi() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\BusinessImplementation\ApiCacheManager.cs:line 26
+   at EmployeeWebApi.Controllers.EmployeeController.CreateCache() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 285
+   at EmployeeWebApi.Controllers.EmployeeController.GetEmployee() in H:\EmployeeWebApi\EmployeeWebApi\EmployeeWebApi\Controllers\EmployeeController.cs:line 59
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:258,State:0,Class:20
+INFO-2020-03-23 19:27:28:00-[16]-WebApiApplication - ******Application End******
+INFO-2020-03-23 19:28:11:62-[1]-WebApiApplication - ******Application started******
+INFO-2020-03-23 19:30:05:12-[14]-SqlDatabase - Executing command dbo.SysApi_GetAllApi
+INFO-2020-03-23 19:30:07:98-[14]-SqlDatabase - Executing command dbo.SysApi_GetAccessTokens
+INFO-2020-03-23 19:30:09:05-[14]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 19:30:10:16-[14]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 19:30:11:62-[15]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 19:30:18:15-[15]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 19:30:19:01-[15]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 19:30:19:98-[14]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 19:30:23:05-[14]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 19:30:23:90-[14]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 19:30:24:86-[10]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 19:30:26:79-[16]-SqlDatabase - Executing command dbo.CoreApiLog_Insert
+INFO-2020-03-23 19:30:27:66-[16]-SqlDatabase - Executing command dbo.CoreEmployee_GetByPan
+INFO-2020-03-23 19:30:28:62-[14]-SqlDatabase - Executing command dbo.CoreApiLog_Update
+INFO-2020-03-23 19:51:36:84-[32]-WebApiApplication - ******Application End******

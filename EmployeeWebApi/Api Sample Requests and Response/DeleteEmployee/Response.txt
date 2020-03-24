@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<EmployeeResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <RequestId>734a6824-1656-4956-8c8b-b163f0d1aa8f</RequestId>
+    <RequestStatus>Success</RequestStatus>
+    <EmployeeResponseDetails>
+        <EmployeeResponseDetail>
+            <TransactionId>12</TransactionId>
+            <TransactionStatus>Success</TransactionStatus>
+        </EmployeeResponseDetail>
+        <EmployeeResponseDetail>
+            <TransactionId>120</TransactionId>
+            <TransactionStatus>Rejected</TransactionStatus>
+            <RejectionDetail>
+                <RejectionCode>RC11</RejectionCode>
+                <RejectionDescription>Employee doesn't exist</RejectionDescription>
+            </RejectionDetail>
+        </EmployeeResponseDetail>
+    </EmployeeResponseDetails>
+</EmployeeResponse>

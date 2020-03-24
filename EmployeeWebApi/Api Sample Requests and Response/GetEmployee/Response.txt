@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-16"?>
+<EmployeeResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <RequestId>0f0dbada-494c-4e8e-b325-bb4f23dee734</RequestId>
+    <RequestStatus>Success</RequestStatus>
+    <EmployeeResponseDetails>
+        <EmployeeResponseDetail>
+            <TransactionId>12</TransactionId>
+            <TransactionStatus>Success</TransactionStatus>
+            <FirstName>R12</FirstName>
+            <LastName />
+            <BirthDate>07-10-1994</BirthDate>
+            <Pan>12317</Pan>
+        </EmployeeResponseDetail>
+        <EmployeeResponseDetail>
+            <TransactionId>120</TransactionId>
+            <TransactionStatus>Rejected</TransactionStatus>
+            <RejectionDetail>
+                <RejectionCode>RC6</RejectionCode>
+                <RejectionDescription>Employee not found</RejectionDescription>
+            </RejectionDetail>
+        </EmployeeResponseDetail>
+    </EmployeeResponseDetails>
+</EmployeeResponse>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<EmployeeResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <RequestId>d1e8a48f-7a18-46f6-9cc4-cf86cf397691</RequestId>
+    <RequestStatus>Success</RequestStatus>
+    <EmployeeResponseDetails>
+        <EmployeeResponseDetail>
+            <TransactionId>12</TransactionId>
+            <TransactionStatus>Success</TransactionStatus>
+        </EmployeeResponseDetail>
+        <EmployeeResponseDetail>
+            <TransactionId>120</TransactionId>
+            <TransactionStatus>Success</TransactionStatus>
+        </EmployeeResponseDetail>
+    </EmployeeResponseDetails>
+</EmployeeResponse>
